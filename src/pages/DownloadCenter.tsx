@@ -517,7 +517,7 @@ export default function DownloadCenter() {
             <h2>Need a specific document?</h2>
             <p>If you're looking for a document that isn't listed here — a specific project profile, technical specification, or compliance certificate — get in touch and we'll prepare it for you.</p>
           </div>
-          <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', flexShrink: 0 }}>
+          <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', minWidth: 0, maxWidth: '100%' }}>
             <a href="#" className="btn-gold">Contact Our Team →</a>
             <a href="#" className="btn-outline">info@earthtechnologies.com</a>
           </div>

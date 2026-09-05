@@ -226,7 +226,7 @@ export default function StorageExpertise() {
             <h2>Ready to explore storage for your project?</h2>
             <p>Our engineering team is available to assess your site, size the right system, and walk you through technology options and financing structures.</p>
           </div>
-          <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', flexShrink: 0 }}>
+          <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', minWidth: 0, maxWidth: '100%' }}>
             <a href="#" className="btn btn-gold">Start a Conversation →</a>
             <a href="#" className="btn btn-outline-light">Download Datasheet</a>
           </div>
