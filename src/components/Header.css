@@ -61,8 +61,8 @@ header nav a:hover, header nav a.active{color:var(--gold-light); border-color:va
   display:none;
 }
 
-@media (max-width: 980px){
-  header nav, .nav-right .social-icons, .nav-right .nav-cta{display:none;}
+@media (max-width: 1320px){
+  .nav-row > nav, .nav-right .social-icons, .nav-right .nav-cta{display:none;}
   .menu-btn{
     display:flex; background:none; border:none; color:var(--white); cursor:pointer; padding:4px;
   }

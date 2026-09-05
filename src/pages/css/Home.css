@@ -1,7 +1,7 @@
 .wrap{max-width:1240px; margin:0 auto; padding:0 32px;}
 
 /* ===== HERO ===== */
-.hero{
+.home-hero{
   position:relative;
   min-height:100vh;
   display:flex;
@@ -13,7 +13,7 @@
     var(--navy-deep);
   overflow:hidden;
 }
-.hero::before{
+.home-hero::before{
   content:"";
   position:absolute; inset:0;
   background-image:
@@ -22,7 +22,7 @@
   opacity:0.5;
   mix-blend-mode:overlay;
 }
-.hero-content{position:relative; z-index:2; padding:160px 0 0;}
+.home-hero-content{position:relative; z-index:2; padding:160px 0 0;}
 .hero-eyebrow{
   color:var(--gold-light);
   font-size:12px;
@@ -30,18 +30,18 @@
   display:flex; align-items:center; gap:12px;
 }
 .hero-eyebrow::before{content:""; width:30px; height:1px; background:var(--gold-light);}
-.hero h1{
+.home-hero h1{
   color:var(--white);
   font-size:clamp(38px, 6vw, 78px);
   max-width:16ch;
 }
-.hero-sub{
+.home-hero-sub{
   color:rgba(255,255,255,0.82);
   font-size:18px;
   max-width:46ch;
   margin:26px 0 38px;
 }
-.hero-ctas{display:flex; gap:16px; flex-wrap:wrap;}
+.home-hero-ctas{display:flex; gap:16px; flex-wrap:wrap;}
 .btn{
   font-family:'IBM Plex Mono', monospace;
   font-size:12.5px;
@@ -70,7 +70,7 @@
   grid-template-columns:repeat(4, 1fr);
   padding:22px 32px;
 }
-.ticker-item{
+.home-ticker-item{
   font-family:'IBM Plex Mono', monospace;
   font-size:11.5px;
   color:rgba(255,255,255,0.6);
@@ -78,13 +78,13 @@
   border-left:1px solid var(--line-light);
   padding-left:18px;
 }
-.ticker-item:first-child{border-left:none; padding-left:0;}
-.ticker-item b{display:block; color:var(--white); font-size:16px; margin-bottom:4px; letter-spacing:0.02em;}
+.home-ticker-item:first-child{border-left:none; padding-left:0;}
+.home-ticker-item b{display:block; color:var(--white); font-size:16px; margin-bottom:4px; letter-spacing:0.02em;}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 980px){
   .ticker .wrap{grid-template-columns:repeat(2,1fr); gap:18px 0;}
-  .ticker-item:nth-child(3){border-left:none; padding-left:0;}
+  .home-ticker-item:nth-child(3){border-left:none; padding-left:0;}
 }
 @media (max-width: 560px){
   .wrap{padding:0 20px;}
