@@ -8,7 +8,7 @@ export default function Solutions() {
         <div className="wrap inner">
           <div className="tag">Earth Technologies</div>
           <h1>Solutions</h1>
-          <p className="sub">End-to-end engineering, procurement, and construction across the full renewable energy spectrum — from rooftop solar to grid-scale hybrid systems.</p>
+          <p className="sub">Engineering, procurement and construction services for energy infrastructure-from project assessment and design to construction, commissioning and operational support.</p>
           <div className="hero-foot">
             <div className="hero-foot-item"><strong>12 Solutions</strong>Full service range</div>
             <div className="hero-foot-item"><strong>EPC</strong>Design to commissioning</div>
@@ -24,7 +24,7 @@ export default function Solutions() {
           <div className="section-intro">
             <div className="eyebrow">Our Solutions</div>
             <h2>Full lifecycle.<br />One contractor.</h2>
-            <p>From feasibility study and project development through to construction, commissioning, and long-term operations — Earth Technologies delivers across the complete energy value chain.</p>
+            <p>From feasibility study and project development through to construction, commissioning, and long-term operations — Earth Technologies supports clients through project development, engineering, procurement, construction, commissioning and ongoing operations.</p>
           </div>
 
           <div className="services-grid">
@@ -76,7 +76,7 @@ export default function Solutions() {
                 </svg>
               </div>
               <div className="svc-title">Project Development</div>
-              <p className="svc-text">Our project development services focus on developing renewable energy assets from scratch. We provide end-to-end solutions from location selection to commissioning and provide continued monitoring and maintenance.</p>
+              <p className="svc-text">Our project development services support energy infrastructure projects from initial assessment and feasibility through planning and delivery. We provide end-to-end solutions from location selection to commissioning and provide continued monitoring and maintenance.</p>
             </div>
 
             <div className="svc-card">
@@ -98,7 +98,7 @@ export default function Solutions() {
                 </svg>
               </div>
               <div className="svc-title">Consultancy Services</div>
-              <p className="svc-text">We offer consultancy services to government agencies, companies, and clients willing to expand in the renewable energy sector. We provide feasibility studies, technical advice, and financial analysis among other services.</p>
+              <p className="svc-text">We offer consultancy services to government agencies, companies, and clients willing to expand in the energy sector. We provide feasibility studies, technical advice, and financial analysis among other services.</p>
             </div>
 
             <div className="svc-card">
@@ -138,7 +138,7 @@ export default function Solutions() {
                 </svg>
               </div>
               <div className="svc-title">Energy Transition</div>
-              <p className="svc-text">We help our clients transition from traditional sources of energy to renewable ones, providing advice, implementing change strategies, and closely monitoring the transition throughout every phase.</p>
+              <p className="svc-text">We help our clients transition to cleaner, more reliable sources of energy, providing advice, implementing change strategies, and closely monitoring the transition throughout every phase.</p>
             </div>
 
             <div className="svc-card">
@@ -211,7 +211,7 @@ export default function Solutions() {
                 </svg>
               </div>
               <div className="svc-title">Public &amp; Donor-Funded Projects</div>
-              <p className="svc-text">Specialist delivery of renewable energy infrastructure for government bodies, NGOs, and donor-funded programmes — meeting strict compliance, procurement, reporting, and community impact requirements.</p>
+              <p className="svc-text">Specialist delivery of energy infrastructure for government bodies, NGOs, and donor-funded programmes — meeting strict compliance, procurement, reporting, and community impact requirements.</p>
             </div>
 
             <div className="row-label">O&amp;M, Advisory &amp; Advanced Systems</div>
@@ -283,7 +283,7 @@ export default function Solutions() {
                 </svg>
               </div>
               <div className="svc-title">Gas Power Plants</div>
-              <p className="svc-text">Engineering and construction of gas-powered generation facilities as part of hybrid energy strategies — providing reliable baseload capacity alongside solar and storage for sites requiring guaranteed power continuity.</p>
+              <p className="svc-text">Engineering and construction of gas-powered generation facilities as part of hybrid energy strategies — providing reliable baseload capacity alongside solar and storage for sites requiring guaranteed power continuity. Currently in development for a utility-scale gas power project in Gabon</p>
             </div>
 
             <div className="svc-card">
@@ -310,7 +310,7 @@ export default function Solutions() {
                   <line x1="64" y1="60" x2="70" y2="60" opacity="0.3" />
                 </svg>
               </div>
-              <div className="svc-title">Micro Grid</div>
+              <div className="svc-title">Microgrids</div>
               <p className="svc-text">Design and deployment of self-contained micro-grid systems that deliver stable, independent power to remote sites, communities, and facilities beyond the reach of the main grid — combining solar, storage, and smart control.</p>
             </div>
           </div>

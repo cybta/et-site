@@ -122,7 +122,7 @@ export default function StorageExpertise() {
           <div className="banner-inner">
             <div className="eyebrow light" style={{ marginBottom: '18px' }}>03 — Scale</div>
             <h2>From a single container to a grid-scale installation</h2>
-            <p>Earth Technologies has deployed storage infrastructure alongside solar assets across Lebanon, Africa, and the Middle East — every project engineered from scratch by our in-house team to match the exact operational requirements of the site.</p>
+            <p>Earth Technologies has deployed storage infrastructure alongside solar assets across Africa and the Middle East — every project engineered from scratch by our in-house team to match the exact operational requirements of the site.</p>
             <a href="#" className="btn btn-gold">View Project Portfolio →</a>
           </div>
 

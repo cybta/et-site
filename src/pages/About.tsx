@@ -8,7 +8,7 @@ export default function About() {
         <div className="wrap inner">
           <div className="tag">Earth Technologies</div>
           <h1>About<br />Us</h1>
-          <p className="sub">A regional energy EPC contractor built on Lebanese engineering excellence — delivering solar, storage, and hybrid infrastructure since 2010.</p>
+          <p className="sub">An energy engineering, procurement and construction contractor serving projects across Africa and the Middle East since 2010.</p>
           <div className="hero-foot">
             <div className="hero-foot-item"><strong>Est. 2010</strong>Beirut, Lebanon</div>
             <div className="hero-foot-item"><strong>10+ Countries</strong>LB · Africa · Middle East</div>
@@ -31,7 +31,7 @@ export default function About() {
                 <hr />
                 <div className="srow"><span>Est.</span><span>2010</span></div>
                 <div className="srow"><span>HQ</span><span>Beirut, LB</span></div>
-                <div className="srow"><span>Sector</span><span>Renewable Energy</span></div>
+                <div className="srow"><span>Sector</span><span>Energy EPC</span></div>
                 <div className="srow"><span>Type</span><span>EPC Contractor</span></div>
               </div>
               <div className="photo-label">Residential rooftop installation — Lebanon</div>
@@ -39,13 +39,12 @@ export default function About() {
 
             <div>
               <div className="eyebrow">01 — Company Overview</div>
-              <h2 className="sec-title">Pioneering renewable energy since 2010</h2>
+              <h2 className="sec-title">Delivering Energy Infrastrcture Since 2010</h2>
               <div className="founded-badge">
                 <div className="dot"></div>
                 Founded <strong>2010</strong> · Beirut, Lebanon
               </div>
-              <p className="body">Earth Technologies, a pioneering renewable energy company, was established in Lebanon in 2010 with a strong commitment to sustainable solutions and environmental stewardship.</p>
-              <p className="body" style={{ marginTop: 14 }}>Through its innovative approach and dedication to excellence, Earth Technologies has successfully positioned itself as a leader in the renewable energy sector — delivering complex EPC projects across Lebanon, Africa, and the Middle East.</p>
+              <p className="body">Established in 2010, Earth Technologies delivers engineering, procurement and construction services for energy infrastructure across Africa and the Middle East. Building on its experience in solar, battery storage and hybrid systems, the company is expanding its activities in the wider energy sector, including current involvement in a major gas development in Gabon.</p>
               <div className="stat-strip cols-3">
                 <div className="stat-item"><b>16<em>+</em></b><span>Years active</span></div>
                 <div className="stat-item"><b>10<em>+</em></b><span>Countries</span></div>
@@ -89,7 +88,7 @@ export default function About() {
 
             <div>
               <div className="eyebrow light">02 — Project Locations</div>
-              <h2 className="sec-title" style={{ color: 'var(--white)' }}>From Lebanon to across the continent</h2>
+              <h2 className="sec-title" style={{ color: 'var(--white)' }}>Our Presence Across Africa and the Middle East</h2>
               <p className="body light">Since its inception, Earth Technologies has experienced significant growth and expansion. In 2013, the company strategically extended its operations to Africa, seizing opportunities in emerging markets to make a lasting impact on the continent's energy landscape.</p>
               <p className="body light" style={{ marginTop: 14 }}>Leveraging its expertise and proven track record, Earth Technologies has undertaken a series of successful projects in Lebanon, Zambia, Iraq, Saudi Arabia, Cameroon, Rwanda, Ivory Coast, Nigeria and others.</p>
 
@@ -97,22 +96,29 @@ export default function About() {
                 <div className="region-item">
                   <span className="region-num">01</span>
                   <div>
-                    <div className="region-name">Lebanon</div>
-                    <div className="region-desc">Headquarters · largest project base</div>
+                    <div className="region-name">AFRICA</div>
+                    <div className="region-desc">Zambia · Cameroon · Rwanda · Ivory Coast · Nigeria · Burkina Faso · Mali · Gabon</div>
                   </div>
                 </div>
                 <div className="region-item">
                   <span className="region-num">02</span>
                   <div>
-                    <div className="region-name">Africa</div>
-                    <div className="region-desc">Zambia · Cameroon · Rwanda · Ivory Coast · Nigeria · Burkina Faso · Mali</div>
+                    <div className="region-name">Middle East</div>
+                    <div className="region-desc">Saudi Arabia · Iraq</div>
                   </div>
                 </div>
                 <div className="region-item">
                   <span className="region-num">03</span>
                   <div>
-                    <div className="region-name">Middle East</div>
-                    <div className="region-desc">Saudi Arabia · Iraq</div>
+                    <div className="region-name">Lebanon</div>
+                    <div className="region-desc">Regional Base</div>
+                  </div>
+                  </div>
+                <div className="region-item">
+                  <span className="region-num">04</span>
+                  <div>
+                    <div className="region-name">Gabon</div>
+                    <div className="region-desc">Utility-scale gas power development (Mayumba), alongside solar and storage.</div>
                   </div>
                 </div>
               </div>
@@ -136,10 +142,8 @@ export default function About() {
 
             <div>
               <div className="eyebrow">03 — Community Impact</div>
-              <h2 className="sec-title">Clean energy. Lasting communities.</h2>
-              <p className="body">Earth Technologies has implemented cutting-edge renewable energy initiatives that have reduced carbon footprints and supported sustainable development across the region.</p>
-              <p className="body" style={{ marginTop: 14 }}>Recognised for impactful work in Zambia, Cameroon, Ivory Coast, and Nigeria, the company enhances energy access and fosters economic growth. With a diverse project portfolio and a dedicated team, Earth Technologies is driving progress in the renewable energy sector, creating a cleaner future for communities across the Middle East and Africa.</p>
-
+              <h2 className="sec-title">Reliable energy. Lasting Local Impact.</h2>
+              <p className="body">Earth Technologies supports reliable energy access, local employment and technical skills development through its projects. Our approach combines engineering delivery with knowledge transfer and long-term operational support to help create lasting value for clients and communities.</p>
               <div className="impact-cards">
                 <div className="impact-card" style={{ background: 'var(--sand)', borderColor: 'var(--line)' }}>
                   <svg className="impact-icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -244,8 +248,8 @@ export default function About() {
 
             <div>
               <div className="eyebrow">05 — Partners &amp; Customers</div>
-              <h2 className="sec-title">Trusted by institutions that matter</h2>
-              <p className="body">The customer database of Earth Technologies includes United Nations agencies such as UNDP, UNHCR, UNIFIL, and UNOPS, in addition to publicly listed companies, as well as hospitals, schools, and municipalities.</p>
+              <h2 className="sec-title">Selected Clients And Institutions</h2>
+              <p className="body">Earth Technologies' clients include...</p>
 
               <div className="un-strip">
                 <div className="un-item">

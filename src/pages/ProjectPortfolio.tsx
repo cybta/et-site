@@ -178,7 +178,7 @@ export default function ProjectPortfolio() {
           <div className="wrap inner">
             <div className="tag">Earth Technologies</div>
             <h1>Project<br />Portfolio</h1>
-            <p className="sub">Hundreds of successfully delivered renewable energy installations across Lebanon, Africa, and the Middle East — select a region to explore.</p>
+            <p className="sub">Explore our energy project experience across Africa and the Middle East, including completed installations and ongoing developments.</p>
             <div className="hero-foot">
               <div className="ticker-item"><strong>100+</strong>Projects delivered</div>
               <div className="ticker-item"><strong>Lebanon</strong>HQ · largest base</div>

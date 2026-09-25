@@ -8,7 +8,7 @@ export default function SectorsClients() {
         <div className="wrap inner">
           <div className="tag">Earth Technologies</div>
           <h1>Sectors &amp;<br />Clients We Serve</h1>
-          <p className="sub">From hospitals and schools to government ministries and agribusinesses — Earth Technologies delivers renewable energy solutions across every sector that needs reliable power.</p>
+          <p className="sub">From hospitals and schools to government ministries and agribusinesses — Earth Technologies provides energy infrastructure and EPC services for commercial, industrial, public-sector and institutional clients across Africa and the Middle East.</p>
           <div className="hero-foot">
             <div className="ticker-item"><strong>15 Sectors</strong>Full market coverage</div>
             <div className="ticker-item"><strong>16 Client types</strong>Public &amp; private</div>
@@ -24,7 +24,7 @@ export default function SectorsClients() {
           <div className="section-header">
             <div className="eyebrow">01 — Sectors</div>
             <h2>The sectors we power</h2>
-            <p>Earth Technologies brings renewable energy expertise to a wide range of industries — each with its own energy profile, reliability requirements, and operational constraints.</p>
+            <p>Earth Technologies brings engineering and project delivery expertise to industries with different energy needs, reliability requirements and operating conditions.</p>
           </div>
         </div>
         <div className="wrap" style={{ padding: '0' }}>
