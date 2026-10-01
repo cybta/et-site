@@ -8,6 +8,7 @@ import StorageExpertise from './pages/StorageExpertise';
 import DownloadCenter from './pages/DownloadCenter';
 import InstitutionalCredibility from './pages/InstitutionalCredibility';
 import ProjectPortfolio from './pages/ProjectPortfolio';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/download-center" element={<DownloadCenter />} />
           <Route path="/institutional-credibility" element={<InstitutionalCredibility />} />
           <Route path="/project-portfolio" element={<ProjectPortfolio />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

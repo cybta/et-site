@@ -11,7 +11,7 @@ export default function About() {
           <p className="sub">An energy engineering, procurement and construction contractor serving projects across Africa and the Middle East since 2010.</p>
           <div className="hero-foot">
             <div className="hero-foot-item"><strong>Est. 2010</strong>Beirut, Lebanon</div>
-            <div className="hero-foot-item"><strong>10+ Countries</strong>LB · Africa · Middle East</div>
+            <div className="hero-foot-item"><strong>10+</strong>Countries Served</div>
             <div className="hero-foot-item"><strong>EPC Contractor</strong>Solar · Storage · Hybrid</div>
             <div className="hero-foot-item"><strong>6 Sections</strong>Company profile</div>
           </div>

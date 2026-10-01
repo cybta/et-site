@@ -298,7 +298,7 @@ export default function InstitutionalCredibility() {
           <div className="hero-foot">
             <div className="ticker-item"><strong>5.0 ★</strong>Google rating</div>
             <div className="ticker-item"><strong>100+</strong>Projects delivered</div>
-            <div className="ticker-item"><strong>10+</strong>Countries active</div>
+            <div className="ticker-item"><strong>10+</strong>Countries served</div>
             <div className="ticker-item"><strong>UN Agencies</strong>UNDP · UNHCR · UNIFIL · UNOPS</div>
           </div>
         </div>

@@ -12,7 +12,7 @@ export default function SectorsClients() {
           <div className="hero-foot">
             <div className="ticker-item"><strong>15 Sectors</strong>Full market coverage</div>
             <div className="ticker-item"><strong>16 Client types</strong>Public &amp; private</div>
-            <div className="ticker-item"><strong>10+ Countries</strong>MEA region</div>
+            <div className="ticker-item"><strong>10+</strong>Countries Served</div>
             <div className="ticker-item"><strong>EPC</strong>Design to O&amp;M</div>
           </div>
         </div>
@@ -573,7 +573,7 @@ export default function SectorsClients() {
             </div>
 
             {/* 10 Architects */}
-            <div className="icon-card sand-card">
+            {/* <div className="icon-card sand-card">
               <div className="icon-wrap">
                 <svg width="56" height="56" viewBox="0 0 56 56" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M28 8 L10 48 L46 48 Z" />
@@ -589,7 +589,7 @@ export default function SectorsClients() {
                 </svg>
               </div>
               <div className="icon-label">Architects</div>
-            </div>
+            </div> */}
 
             {/* 11 Agribusinesses */}
             <div className="icon-card sand-card">

@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { label: 'Credibility', to: '/institutional-credibility' },
   { label: 'Downloads', to: '/download-center' },
   { label: 'Storage', to: '/storage-expertise' },
+  { label: 'Contact', to: '/contact' },
 ];
 
 export default function Header() {
@@ -51,7 +52,6 @@ export default function Header() {
                 </NavLink>
               </li>
             ))}
-            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
 
@@ -61,7 +61,6 @@ export default function Header() {
             <a href="#" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 2.4.27 3.2.55a6.5 6.5 0 0 1 2.4 1.55 6.5 6.5 0 0 1 1.55 2.4c.28.8.5 2 .55 3.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.06 1.2-.27 2.4-.55 3.2a6.5 6.5 0 0 1-1.55 2.4 6.5 6.5 0 0 1-2.4 1.55c-.8.28-2 .5-3.2.55-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.06-2.4-.27-3.2-.55a6.5 6.5 0 0 1-2.4-1.55 6.5 6.5 0 0 1-1.55-2.4c-.28-.8-.5-2-.55-3.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.06-1.2.27-2.4.55-3.2A6.5 6.5 0 0 1 4.37 1.5 6.5 6.5 0 0 1 6.77.0c.8-.28 2-.5 3.2-.55C11.27 2.2 11.67 2.2 12 2.2Zm0 1.8c-3.15 0-3.52 0-4.76.07-1.04.05-1.6.22-1.97.36-.5.2-.85.43-1.22.8-.37.37-.6.72-.8 1.22-.14.37-.3.93-.36 1.97C2.8 9.66 2.8 10.03 2.8 13.18s0 3.52.07 4.76c.05 1.04.22 1.6.36 1.97.2.5.43.85.8 1.22.37.37.72.6 1.22.8.37.14.93.3 1.97.36 1.24.06 1.61.07 4.76.07s3.52 0 4.76-.07c1.04-.05 1.6-.22 1.97-.36.5-.2.85-.43 1.22-.8.37-.37.6-.72.8-1.22.14-.37.3-.93.36-1.97.06-1.24.07-1.61.07-4.76s0-3.52-.07-4.76c-.05-1.04-.22-1.6-.36-1.97a3.3 3.3 0 0 0-.8-1.22 3.3 3.3 0 0 0-1.22-.8c-.37-.14-.93-.3-1.97-.36-1.24-.06-1.61-.07-4.76-.07Zm0 4.6a5.4 5.4 0 1 1 0 10.8 5.4 5.4 0 0 1 0-10.8Zm0 1.8a3.6 3.6 0 1 0 0 7.2 3.6 3.6 0 0 0 0-7.2Zm5.6-2a1.26 1.26 0 1 1 0 2.52 1.26 1.26 0 0 1 0-2.52Z" /></svg></a>
             <a href="#" aria-label="LinkedIn"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.83-2 3.77-2 4.03 0 4.78 2.5 4.78 5.8V21h-4v-5.7c0-1.36-.02-3.1-1.9-3.1-1.9 0-2.2 1.48-2.2 3v5.8h-4V9Z" /></svg></a>
           </div>
-          <a href="#contact" className="nav-cta">Get a Quote</a>
           <button
             className="menu-btn"
             aria-label={menuOpen ? 'Close menu' : 'Open menu'}
@@ -88,10 +87,8 @@ export default function Header() {
                   </NavLink>
                 </li>
               ))}
-              <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
             </ul>
           </nav>
-          <a href="#contact" className="nav-cta mobile-cta" onClick={() => setMenuOpen(false)}>Get a Quote</a>
         </div>
       )}
     </header>

@@ -6,23 +6,16 @@ export default function StorageExpertise() {
       {/* ══════════════════════════════════════════
            01 — HERO
       ══════════════════════════════════════════ */}
-      <div className="hero">
-        <div className="hero-inner wrap hero-content">
-          <div className="hero-tag">Earth Technologies</div>
-          <h1>Storage<br />Expertise</h1>
-          <p className="hero-sub">Advanced battery energy storage systems engineered for resilience — from containerised BESS units to large-scale grid storage across the Middle East and Africa.</p>
-          <div className="hero-ctas">
-            <a href="#" className="btn btn-gold">Explore Solutions →</a>
-            <a href="#" className="btn btn-outline-light">Contact Our Team</a>
-          </div>
-        </div>
-
-        <div className="hero-ticker">
-          <div className="wrap">
-            <div className="ticker-item"><b>BESS</b>Battery Energy Storage</div>
-            <div className="ticker-item"><b>Grid-Scale</b>Utility &amp; C&amp;I</div>
-            <div className="ticker-item"><b>Hybrid</b>Solar + Storage</div>
-            <div className="ticker-item"><b>MEA</b>Regional deployment</div>
+      <div className="page-hero">
+        <div className="wrap inner">
+          <div className="tag">Earth Technologies</div>
+          <h1>Storage Expertise</h1>
+          <p className="sub">Advanced battery energy storage systems engineered for resilience — from containerised BESS units to large-scale grid storage across the Middle East and Africa.</p>
+          <div className="hero-foot">
+            <div className="hero-foot-item"><strong>BESS</strong>Battery Energy Storage</div>
+            <div className="hero-foot-item"><strong>Grid-Scale</strong>Utility &amp; C&amp;I</div>
+            <div className="hero-foot-item"><strong>Hybrid</strong>Solar + Storage</div>
+            <div className="hero-foot-item"><strong>MEA</strong>Regional deployment</div>
           </div>
         </div>
       </div>

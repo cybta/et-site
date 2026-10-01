@@ -60,68 +60,45 @@
 /* ════════════════════════════════
    01 — HERO
 ════════════════════════════════ */
-.hero {
-  min-height: 92vh;
-  display: flex; flex-direction: column; justify-content: flex-end;
+.page-hero {
+  background: var(--ink);
+  padding: 144px 0 84px;
   position: relative; overflow: hidden;
-  background:
-    linear-gradient(180deg, rgba(15,27,38,0.45) 0%, rgba(15,27,38,0.15) 30%, rgba(15,27,38,0.3) 60%, rgba(15,27,38,0.94) 100%),
-    repeating-linear-gradient(95deg, #253d52 0px, #253d52 42px, #1e3347 42px, #1e3347 84px);
 }
-/* container grid texture */
-.hero::before {
-  content: ''; position: absolute; inset: 0; pointer-events: none;
+.page-hero::before {
+  content: ''; position: absolute; inset: 0;
   background-image:
-    repeating-linear-gradient(0deg,  rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 1px, transparent 1px, transparent 48px),
-    repeating-linear-gradient(90deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 1px, transparent 1px, transparent 48px);
-  mix-blend-mode: overlay;
+    repeating-linear-gradient(0deg,  rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 60px);
+  pointer-events: none;
 }
-/* horizontal container lines mimicking BESS units */
-.hero::after {
-  content: ''; position: absolute; inset: 0; pointer-events: none;
-  background-image:
-    repeating-linear-gradient(0deg, rgba(255,255,255,0.06) 0px, rgba(255,255,255,0.06) 2px, transparent 2px, transparent 80px);
+.page-hero::after {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+  background: linear-gradient(180deg, var(--gold) 0%, transparent 100%);
 }
-.hero-inner { position: relative; z-index: 2; padding-bottom: 0; }
-.hero-content { padding: 0 0 0; }
-.hero-tag {
+.page-hero .inner { position: relative; z-index: 1; }
+.page-hero .tag {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
   color: var(--gold-light);
   display: flex; align-items: center; gap: 12px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
-.hero-tag::before { content: ''; width: 30px; height: 1px; background: var(--gold-light); }
-.hero h1 {
-  color: var(--white);
-  font-size: clamp(52px, 9vw, 112px);
-  max-width: 14ch; margin-bottom: 26px;
-  text-shadow: 0 2px 40px rgba(0,0,0,0.3);
+.page-hero .tag::before { content: ''; width: 30px; height: 1px; background: var(--gold-light); }
+.page-hero h1 { color: var(--white); font-size: clamp(52px, 8vw, 100px); margin-bottom: 22px; }
+.page-hero .sub { color: rgba(255,255,255,0.58); font-size: 17px; line-height: 1.72; max-width: 52ch; }
+.hero-foot {
+  margin-top: 60px; border-top: 1px solid var(--line-light);
+  padding-top: 26px; display: flex; gap: 0;
 }
-.hero-sub {
-  color: rgba(255,255,255,0.72);
-  font-size: 17px; line-height: 1.72; max-width: 52ch;
-  margin-bottom: 36px;
-}
-.hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
-
-/* hero ticker */
-.hero-ticker {
-  position: relative; z-index: 2;
-  border-top: 1px solid var(--line-light);
-  margin-top: 72px;
-}
-.hero-ticker .wrap {
-  display: grid; grid-template-columns: repeat(4, 1fr);
-  padding: 20px 48px;
-}
-.ticker-item {
+.hero-foot-item {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 11px; color: rgba(255,255,255,0.5); letter-spacing: 0.08em;
-  border-left: 1px solid var(--line-light); padding-left: 20px;
+  font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+  color: rgba(255,255,255,0.38);
+  padding-right: 40px; border-right: 1px solid var(--line-light); margin-right: 40px;
 }
-.ticker-item:first-child { border-left: none; padding-left: 0; }
-.ticker-item b { display: block; color: var(--white); font-size: 15px; margin-bottom: 3px; letter-spacing: 0.02em; }
+.hero-foot-item:last-child { border-right: none; margin-right: 0; }
+.hero-foot-item strong { display: block; color: var(--white); font-size: 13px; margin-bottom: 3px; letter-spacing: 0.02em; }
 
 /* ════════════════════════════════
    02 — INTRO SPLIT
@@ -275,8 +252,6 @@ h2.sec-title { font-size: clamp(28px, 3.6vw, 46px); margin-bottom: 26px; line-he
 }
 @media (max-width: 900px) {
   .two-col, .two-col.flip { grid-template-columns: 1fr; gap: 48px; direction: ltr; }
-  .hero-ticker .wrap { grid-template-columns: repeat(2, 1fr); gap: 16px 0; }
-  .ticker-item:nth-child(3) { border-left: none; padding-left: 0; }
   .wrap { padding: 0 24px; }
 }
 @media (max-width: 600px) {
